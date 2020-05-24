@@ -16,6 +16,7 @@
 - `chmod modifiers files`: changes the permissions for the files according to the provided modifiers; we've seen +x to make the file executable
 - `chown user files`: changes the owner of the files to the given user
 - `chgrp group files`: changes the group of the files to the given group
+- `find . -name '*.tmp' -delete`: Delete all files with extension .tmp in current folder recursively
 
 ## Operating with the content of files
 - `cat file`: shows the content of the file through standard output
